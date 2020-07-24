@@ -642,3 +642,72 @@ th,td{
     border-radius: 15px;
     width: 11%;
 }
+
+/* /blood search detail page divs/ */
+
+.bloodsearchmain{
+  height: 37vh;
+  background-color:#8b0a0a ;
+  display: flex;
+  width: 100%;
+  padding: 47px;
+  flex-wrap: wrap;
+}
+
+.smalldiv{
+  width: 22%;
+  background-color: gold;
+  height: 63vh;
+}
+
+.secondarydiv{
+  margin-top: -454px;
+    margin-left: 22%;
+    width: 78%;
+    background-color: blanchedalmond;
+    padding: 0px 12px;
+    height: 62vh;
+}
+
+.spantag{
+  font-size: 2vw;
+    padding: 2px;
+    background-color: orangered;
+}
+
+.marque{
+  background-color: orangered;
+  width: '60%'
+}
+
+.bloodgroupdiv{
+  display: flex;
+  margin-top: 4%;
+  padding: 0px 0px;
+}
+
+#bloodgroup{
+  margin-left: 7%;
+}
+
+.selectCountry{
+  margin-left: 59px;
+}
+
+.selectcity{
+  margin-left: 83px;
+}
+
+.selectdistrict{
+  margin-left: 64px;
+}
+
+.selectstate{
+  margin-left: 77px;
+}
+
+.buttonstyle{
+  height: 4vh;
+    margin-left: 5%;
+    margin-top: 5%;
+}

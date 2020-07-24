@@ -47,7 +47,6 @@ class Registration extends React.Component {
     componentDidMount() {
         fetch(`http://bloodbank.nammatiruchengode.com/api/master/master-list`, {
             method: 'POST',
-            // body: JSON.stringify({  }),
             headers: {
                 'Content-Type': 'application/json'
             }

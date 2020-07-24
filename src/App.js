@@ -18,12 +18,13 @@ class App extends React.Component {
 
     render() {
         return (
-            <div className='homecontainer'>
-                <div className='navbar'>
+            <div className='bloodcontainer'>
+                {/* <div className='navbar'>
                     <ul><a style={{ color: 'white' }} href="#">Home</a></ul>
                     <ul><a style={{ color: 'white' }} href="#">Contact</a></ul>
                     <ul><a style={{ color: 'white' }} href="#/register" onClick={this.register}>Register</a></ul>
-                </div>
+                </div> */}
+                <div style={{ color: 'white' }}><marquee behavior="scroll" direction="left">Here is some scrolling text... right to left!</marquee></div>
                 <div className='mainheader'>
 
                     <p>Please come forward and contribute. Your contribution will transform lives.</p></div>
