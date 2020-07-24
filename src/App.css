@@ -1,0 +1,644 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+
+.container{
+  position: fixed;
+    margin-left: 25%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.li{
+  display: inline;
+}
+
+.Appbar{
+    position: fixed; 
+    color: white;
+    margin-left: -24%;
+    width: 96%;
+    top: 4%;
+}
+
+.Appbar1{
+  position: relative;
+    font-size: 25px;
+    background-color: cornflowerblue;
+    display: flex;
+    height: 10vh;
+}
+
+.aboutus{
+  left: 71%;
+    position: fixed;
+    margin-top: 29px;
+}
+
+.showtime{
+  margin-left: 23px;
+    height: 6vh;
+    margin-top: 1%;
+    position: fixed;
+    background-color: blue;
+}
+
+.now{
+  margin-top: 13%;
+    margin-left: -40%;
+}
+
+.borderbox1{
+  height: 20vh;
+  margin-top: 10px;
+  border-radius: 20px;
+    background-color: #ddd;
+    border-style: none;
+    width: 115%;
+}
+
+.come{
+  margin-top: 1%;
+  margin-left: -40%;
+}
+
+.borderbox2{
+  height: 20vh;
+  margin-top: 10px;
+    background-color: #ddd;
+    border-radius: 20px;
+    border-style: none;
+    width: 115%;
+}
+
+.exclu{
+  margin-top: 1%;
+  margin-left: -40%;
+}
+
+.borderbox3{
+  height: 20vh;
+  margin-top: 10px;
+    background-color: #ddd;
+    border-radius: 20px;
+    border-style: none;
+    width: 115%;
+}
+
+.headerfont{
+  margin-left: 3%;
+    font-size: 28px;
+    padding: 21px;
+    font-style: italic;
+}
+
+.headertag{
+  position: relative;
+    margin-left: 27%;
+}
+
+.headertag2{
+  position: fixed;
+    width: 40%;
+    border-radius: -17%;
+    left: 28%;
+    height: 58vh;
+    top: 12%;
+    border: 2px solid #333;
+}
+
+.headertag3{
+  background-color: #ddd;
+    width: 87%;
+    margin-left: 6%;
+    margin-top: 10%;
+    height: 38vh;
+}
+
+
+.tablestyle{
+  position: relative;
+    margin-left: 5%;
+    top: 48%;
+    font-size: 29px;
+}
+
+.image{
+  width: 58%;
+    margin-left: 61%;
+    height: 17vh;
+}
+
+.fullHeader{
+  border: 2px solid;
+    height: 78vh;
+    width: 47%;
+    margin-left: 25%;
+    margin-top: 1%;
+}
+
+#student-table{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  position: relative;
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+th,td{
+  border: 2px solid #dddddd;
+}
+
+
+.HeaderDiv{
+  margin-top: 0px;
+    text-align: center;
+    height: 10vh;
+    color: black;
+    background-color:lawngreen;
+    font-size: xx-large;
+    padding: 10px;
+    width: 45%;
+    margin-left: 29%;
+}
+
+.csk{
+  width: 15%;
+    height: 23vh;
+    margin-left: 31%;
+    margin-top: 2%;
+}
+
+
+.mumbai{
+  width: 15%;
+    height: 23vh;
+    margin-left: 54%;
+    margin-top: -48%;
+}
+
+.cskDiv{
+  margin-top: 10%;
+    margin-left: 33%;
+    width: 12%;
+}
+
+.miDiv{
+  float: right;
+    margin-right: 34%;
+    width: 10%;
+    margin-top: -15%;
+}
+
+.nameTag{
+  margin-top: 2vw;
+  width: 8%;
+  margin-left: 2%;
+  font-size: 2vw;
+}
+
+.buttonTag{
+  margin-left: 27%;
+    margin-top: 2%;
+}
+
+
+.loginbox{
+  padding: 78px;
+}
+
+.loginpwd{
+  outline: none;
+  position: relative;
+    top: 34px;
+    padding: 7px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.loginbox1{
+  position: absolute;
+  margin-top: 8%;
+  background-color:lightsalmon;
+  border-radius: 23px;
+  height: 47vh;
+  margin-left: 35%;
+}
+
+.loginbutton{
+  position: relative;
+    margin-left: 29%;
+    width: 44%;
+    top: 64px;
+}
+
+.borderStyle{
+  border-bottom: none;
+    border-top: none;
+    border-left: noowhite;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.inputtype{
+  padding: 8px 12px;
+  margin: 29px 0;
+  box-sizing: border-box;
+}
+
+.sumlabel{
+  margin-top: 2vw;
+    font-size: 2vw;
+    margin-left: 4vw;
+}
+
+.sumText{
+  padding: 8px 12px;
+    margin: 29px 0;
+    box-sizing: border-box;
+    margin-left: 12%;
+}
+
+.buttonTag{
+  padding-left: 2vw;
+    width: 23vw;
+    display: block;
+}
+
+.logindiv{
+  text-align: center;
+  font-size: 2vw;
+  margin-top: -28%;
+}
+
+@media screen and (max-width:375px){
+  .logindiv {
+    text-align: center;
+    font-size: 7vw;
+    margin-top: -28%;
+  }
+  .loginboxm {
+    padding: 68px;
+  }
+  .loginbox1{
+    position: absolute;
+      margin-top: 8%;
+      background-color: lightsalmon;
+      border-radius: 23px;
+      height: 42vh;
+      margin-left: 6%;
+  }
+}
+
+
+@media screen{
+.usediv{
+  outline: none;
+  padding: 7px;
+    margin-top: 1vw;
+    border-style: none;
+    border-radius: 15px;
+}
+}
+
+.bloodheader{
+  text-align: center;
+    width: 100%;
+    height: 10vh;
+    background-color: indianred;
+    font-size: 2vw;
+    padding: 16px;
+}
+
+@media screen and (max-width:375px){
+  .navbar1{
+    position: absolute;
+    display: block;
+    left: 92%;
+  }
+}
+
+.bloodcontainer{
+    height: 90vh;
+    background-color:#8b0a0a ;
+    display: flex;
+    width: 100%;
+    padding: 47px;
+    flex-wrap: wrap;
+}
+
+.bloodname{
+  font-size: 2vw;
+    padding: 53px;
+}
+
+.bloodnameinput{
+  border-style: none;
+  outline: none;
+  border-radius: 9px;
+}
+
+.buttonStyle{
+  border-radius: 18px;
+    width: 9vw;
+    padding: 4px 4px;
+    /* background-color: red; */
+}
+
+/* @media screen and (max-width:300px) {
+  .bloodcontainer{
+    display: inline-block;
+  }
+} */
+
+@media screen and (max-width:1536px) {
+  .bloodheader2{
+    display: none;
+  }
+}
+
+@media screen and (max-width:375px) {
+  .bloodheader{
+    display: none;
+  }
+  .bloodheader2{
+    display: inline-block;
+      text-align: center;
+        width: 100%;
+        height: 10vh;
+        background-color: indianred;
+        font-size: 5vw;
+        padding: 22px;
+  }
+}
+
+.mobnumber{
+  padding: 0px 30px;
+}
+.dobdiv{
+  padding: 0px 34px;
+}
+.emaildiv{
+  padding: 0px 22px;
+}
+.buttdiv{
+  padding: 1% 18% 4% 48%;
+}
+.warningdiv{
+  background-color: antiquewhite;
+  height: 21vh;
+    text-align: justify;
+    padding: 33px;
+}
+
+.citydiv{
+  padding: 0px 22px;
+}
+
+@media screen and (max-width:375px) {
+  .textboxStyle{
+    height: 4vh;
+      margin-left: 11vh;
+      outline: none;
+      border-radius: 15px;
+      width: 57%;
+  }
+
+  .mobnumber{
+    padding: 0px
+  }
+  .emaildiv{
+    padding: 0px
+  }
+  .dobdiv{
+    padding: 0px
+  }
+  .buttdiv{
+    padding: 0% 25% 0% 43%;
+  }
+  .warningdiv{
+    background-color: antiquewhite;
+    height: 21vh;
+      text-align: justify;
+      padding: 33px;
+      overflow-x: scroll;
+  }
+}
+
+.navbar2{
+  display: flex;
+  font-size: 22px;
+  padding: 0px 0px;
+  width: 23%;
+  left: 76%;
+  top: -97%;
+}
+
+@media screen and (max-width:375px){
+  #student-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    position: relative;
+    margin-top: 11%;
+    margin-left: 4%;
+    overflow-x: scroll;
+}
+.nameTag {
+  margin-top: 2vw;
+  margin-left: 5%;
+  font-size: 7vw;
+}
+.namedivm{
+  float: right;
+    margin-left: 39%;
+    margin-top: -7%;
+}
+.sumlabel {
+  margin-top: 2vw;
+  font-size: 7vw;
+  margin-left: 4vw;
+  width: 34%;
+}
+.sumText {
+  padding: 0px 0px;
+  margin-left: 39%;
+}
+.logoutdiv{
+  display: block;
+    margin-left: 4%;
+    margin-top: 23%;
+}
+}
+
+/* app page divs */
+
+.homecontainer{
+  height: 100vh;
+  overflow: scroll;
+    background-color:darkblue ;
+}
+
+.ScrollableContainer {
+  height: 200px;
+  overflow: scroll;
+  background-color: grey;
+}
+
+.fontColor{
+  color: white;
+}
+
+.mainheader{
+  padding: 49px 4%;
+  color: white;
+    font-size: 3vw;
+}
+
+.firstbox{
+  width: 20%;
+    background-color: white;
+   
+    padding: 23px;
+    margin-left: 4%;
+    height: 40vh;
+}
+
+.secondbox{
+  width: 20%;
+    background-color: white;
+    
+    padding: 23px;
+    margin-left: 29%;
+    height: 40vh;
+    margin-top: -19%;
+}
+
+.thirdbox{
+  width: 20%;
+    background-color: white;
+  
+    padding: 23px;
+    margin-left: 54%;
+    height: 40vh;
+    margin-top: -19%;
+}
+
+.firstpad{
+  padding: 6px;
+    text-align: start;
+}
+
+.fourthbox{
+  width: 20%;
+    background-color: white;
+   
+    padding: 23px;
+    margin-left: 78%;
+    height: 40vh;
+    margin-top: -19%;
+}
+
+
+.blinking{
+  animation:blinkingText 1.2s infinite;
+}
+
+@keyframes blinkingText{
+  0%{     color: red;    }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+}
+
+@media screen and (max-width:375px){
+  .mainheader{
+    padding: 49px 4%;
+    color: white;
+      font-size: 5vw;
+  }
+  .firstbox {
+    width: 90%;
+    background-color: white;
+    padding: 23px;
+    margin-left: 4%;
+    height: 21vh;
+}
+.secondbox {
+  width: 90%;
+  background-color: white;
+  padding: 23px;
+  margin-left: 4%;
+  height: 21vh;
+  margin-top: 6%;
+}
+.thirdbox {
+  width: 90%;
+  background-color: white;
+  padding: 23px;
+  margin-left: 4%;
+  height: 21vh;
+  margin-top: 6%;
+}
+.fourthbox {
+  width: 90%;
+  background-color: white;
+  padding: 23px;
+  margin-left: 4%;
+  height: 21vh;
+  margin-top: 6%;
+  overflow-x: scroll;
+}
+}
+
+.navbar {
+  display: flex;
+  font-size: 22px;
+  top: 3%;
+}
+
+.textboxStyle{
+  height: 4vh;
+    margin-left: 2vh;
+    outline: none;
+    border-radius: 15px;
+    width: 11%;
+}
