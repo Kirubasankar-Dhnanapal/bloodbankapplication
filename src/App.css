@@ -711,3 +711,118 @@ th,td{
     margin-left: 5%;
     margin-top: 5%;
 }
+
+/* // registration page divs // */
+.nameboxdiv{
+  width: 20%;
+  height: 27px;
+    display: flex;
+}
+
+.textboxStyle{
+  height: 4vh;
+  margin-left: 3vh;
+  outline: none;
+  border-radius: 15px;
+  margin-top: -3px;
+  width: 200px;
+}
+
+.mobnumberboxdiv{
+  width: 30%;
+  height: 27px;
+  display: flex;
+}
+
+.mobnumberinputdiv{
+  outline: none;
+  border-radius: 15px;
+  margin-top: -3px;
+  width: 200px;
+  height: 4vh;
+}
+
+.cityboxdiv{
+  width: 23%;
+  height: 27px;
+    display: flex;
+}
+
+.districtboxdiv{
+  width: 23%;
+  height: 27px;
+  display: flex;
+}
+
+.districtselctdiv{
+  border-style: none;
+    outline: none;
+    border-radius: 9px;
+    height: 3vh;
+    margin-left: 2vh;
+    padding: 0px 0px;
+}
+
+.stateboxdiv{
+  display: flex;
+  width: 20%;
+  height: 27px;
+}
+
+.stateselectdiv{
+  margin-left: 6%;
+  border-style: none;
+    outline: none;
+    border-radius: 9px;
+    height: 3vh;
+}
+
+.emailboxdiv{
+  display: flex;
+    width: 20%;
+    height: 27px;
+}
+
+.emailinputdiv{
+  border-style: none;
+    outline: none;
+    border-radius: 9px;
+}
+
+.dobboxdiv{
+  display: flex;
+    width: 19%;
+    height: 27px;
+}
+
+.dobinputdiv{
+  border-style: none;
+    outline: none;
+    border-radius: 9px;
+}
+
+.userIdboxdiv{
+  display: flex;
+    width: 22%;
+    height: 27px;
+}
+
+.userIdinputdiv{
+  border-style: none;
+    outline: none;
+    border-radius: 9px;
+    height: 3vh;
+}
+
+.passwrdboxdiv{
+  display: flex;
+    width: 22%;
+    height: 27px;
+}
+
+.passwrdinputdiv{
+  border-style: none;
+    outline: none;
+    border-radius: 9px;
+    height: 3vh;
+}
