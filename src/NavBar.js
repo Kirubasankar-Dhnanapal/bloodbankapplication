@@ -17,7 +17,7 @@ class Navbar extends Component {
 
     render() {
         return (
-            <nav className="navbar navbar-expand-md navbar-default fixed-top bg-dark" style={{ backgroundColor: '#03A9F4',marginBottom: '0px',borderRadius: 0,border: 0 }}>
+            <nav className="navbar navbar-expand-md navbar-default fixed-top bg-dark" style={{ backgroundColor: '#eb2c33',marginBottom: '0px',borderRadius: 0,border: 0 }}>
                 <div id="navbar" className="navbar-collapse collapse">
                     <ul className="nav navbar-nav" style={{ cursor: 'pointer' }}>
                         <li>
