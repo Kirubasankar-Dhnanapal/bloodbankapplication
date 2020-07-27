@@ -358,7 +358,7 @@ th,td{
 }
 
 .bloodcontainer{
-    height: 90vh;
+    height: 92vh;
     background-color:#8b0a0a ;
     display: flex;
     width: 100%;
@@ -713,6 +713,16 @@ th,td{
 }
 
 /* // registration page divs // */
+
+.registercontainer{
+  height: 92vh;
+  background-color:#8b0a0a ;
+  /* display: flex; */
+  width: 100%;
+  /* padding: 47px; */
+  flex-wrap: wrap;
+}
+
 .nameboxdiv{
   width: 20%;
   height: 27px;
@@ -825,4 +835,22 @@ th,td{
     outline: none;
     border-radius: 9px;
     height: 3vh;
+}
+
+/* // navbar styles // */
+
+.navbarr{
+  display: flex;
+    font-size: 22px;
+    top: 3%;
+    float: left;
+    margin-left: -2%;
+    width: 100%;
+    background-color: deepskyblue;
+}
+
+.container-fluid {
+  padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
 }

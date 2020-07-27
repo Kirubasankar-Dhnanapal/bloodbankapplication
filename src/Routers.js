@@ -4,6 +4,7 @@ import App from './App';
 import Registration from './Registration';
 import SearchDetails from './SearchDetails';
 import Contact from './Contact';
+import NavBar from "./NavBar";
 
 
 class Routers extends Component {
@@ -17,6 +18,7 @@ class Routers extends Component {
     render() {
         return (
             <HashRouter>
+                <NavBar />
                 <Switch>
                     <Route exact path='/' component={App}/>
                     <Route path='/register' component={Registration}/>

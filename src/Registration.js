@@ -50,15 +50,16 @@ class Registration extends React.Component {
             headers: {
                 'Content-Type': 'application/json'
             }
-        }).then((res) => res.json()).then((result) => {
-            this.setState({
-                bloodgroups: result.data.BloodGroups,
-                cities: result.data.Cities,
-                districts: result.data.Districts,
-                states: result.data.States
-            })
-
-        })
+        }).then((res) =>
+            res.json()).then((result) => {
+                this.setState({
+                    bloodgroups: result.data.BloodGroups,
+                    cities: result.data.Cities,
+                    districts: result.data.Districts,
+                    states: result.data.States
+                })
+            }
+            )
     }
 
     sendDetails = () => {
@@ -91,20 +92,20 @@ class Registration extends React.Component {
         console.log(citiId.selectedIndex)
     }
 
-    getUserDetails = () =>{
+    getUserDetails = () => {
         var formData = new FormData();
-        formData.append('name' , )
-        formData.append('bloodgroup' , )
-        formData.append('mobilenumber' , )
-        formData.append('city' , )
-        formData.append('district' , )
-        formData.append('state' , )
-        formData.append('emailId' , )
-        formData.append('dob' , )
-        formData.append('userId' , )
-        formData.append('password' , )
-        formData.append('confirmpassword' , )
-        formData.append('availability' , )
+        formData.append('name',)
+        formData.append('bloodgroup',)
+        formData.append('mobilenumber',)
+        formData.append('city',)
+        formData.append('district',)
+        formData.append('state',)
+        formData.append('emailId',)
+        formData.append('dob',)
+        formData.append('userId',)
+        formData.append('password',)
+        formData.append('confirmpassword',)
+        formData.append('availability',)
 
     }
 
@@ -116,8 +117,8 @@ class Registration extends React.Component {
         return (
             <React.Fragment>
                 <div>
-                    <div className='bloodheader'><b>Blood Group Registration</b>
-                    </div>
+                    {/* <div className='bloodheader'><b>Blood Group Registration</b> */}
+                    {/* </div> */}
                     <div className='bloodheader2'><b>Blood Group Registration</b></div>
                     <div className='bloodcontainer'>
                         <div className='nameboxdiv'>
@@ -135,7 +136,7 @@ class Registration extends React.Component {
                                     <option value={re.state_id}>{re.name}</option>) : null}
                             </select>
                         </div>
-                    
+
                         <div className='districtboxdiv'>
                             <div style={{ color: 'white' }}>District : </div><select className='districtselctdiv'>
                                 {this.state.districts ? this.state.districts.map((re) =>
@@ -154,27 +155,27 @@ class Registration extends React.Component {
                         </div>
                         <div className='dobboxdiv'>
                             <div style={{ color: 'white' }} className='dobdiv'>DOB : </div><input className='dobinputdiv' type='date' id='dob' value={this.state.dob} onChange={(e) => this.setDob(e)}></input>
-                    </div>
-                    <div className='userIdboxdiv'>
-                        <div style={{ color: 'white' }} className='dobdiv'>UserId : </div><input className='userIdinputdiv' id='userId' onChange={(e) => this.setDob(e)}></input>
-                    </div>
-                    <div className='passwrdboxdiv'>
-                        <div style={{ color: 'white' }} className='dobdiv'>Password : </div><input className='passwrdinputdiv' id='password' onChange={(e) => this.setDob(e)}></input>
-                    </div>
+                        </div>
+                        <div className='userIdboxdiv'>
+                            <div style={{ color: 'white' }} className='dobdiv'>UserId : </div><input className='userIdinputdiv' id='userId' onChange={(e) => this.setDob(e)}></input>
+                        </div>
+                        <div className='passwrdboxdiv'>
+                            <div style={{ color: 'white' }} className='dobdiv'>Password : </div><input className='passwrdinputdiv' id='password' onChange={(e) => this.setDob(e)}></input>
+                        </div>
 
-                    <div className='passwrdboxdiv'><div style={{ color: 'white' }} className='dobdiv'>Re-type Password : </div><input className='passwrdinputdiv' id='confirmpassword' onChange={(e) => this.setDob(e)}></input>
-                    </div>
-                    <div className='passwrdboxdiv'><div style={{ color: 'white' }} className='dobdiv'>Please Confirm Availability :
+                        <div className='passwrdboxdiv'><div style={{ color: 'white' }} className='dobdiv'>Re-type Password : </div><input className='passwrdinputdiv' id='confirmpassword' onChange={(e) => this.setDob(e)}></input>
+                        </div>
+                        <div className='passwrdboxdiv'><div style={{ color: 'white' }} className='dobdiv'>Please Confirm Availability :
                         <select className='passwrdinputdiv'>
-                            <option value={1}>Yes</option>
-                            <option value={2}>No</option>
-                        </select></div>
-                    </div>
-                    {/* <div className='buttdiv'><button className='buttonStyle' onClick={this.sendDetails}>Register</button></div> */}
-                    {/* <div className='warningdiv'><p>Important : All Voluntary Donors are warned of likely misuse of blood donated by them at the hospital with or without the knowledge of the hospital management. At some places the hospital staff have taken the blood and sold it to others for a price. As a responsible citizen/voluntary blood donor, we request you to keep a watch on such people and hospitals. Donors must inform the F2S team members/coordinators of such areas in case of any doubt.</p></div> */}
+                                <option value={1}>Yes</option>
+                                <option value={2}>No</option>
+                            </select></div>
+                        </div>
+                        <div className='buttdiv'><button className='buttonStyle' onClick={this.sendDetails}>Register</button></div>
+                        {/* <div className='warningdiv'><p>Important : All Voluntary Donors are warned of likely misuse of blood donated by them at the hospital with or without the knowledge of the hospital management. At some places the hospital staff have taken the blood and sold it to others for a price. As a responsible citizen/voluntary blood donor, we request you to keep a watch on such people and hospitals. Donors must inform the F2S team members/coordinators of such areas in case of any doubt.</p></div> */}
 
+                    </div>
                 </div>
-</div>
             </React.Fragment>
         );
     }
